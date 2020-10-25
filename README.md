@@ -4,7 +4,7 @@ Joe Stones Cybersecurity Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-[https://github.com/gisailor/CybersecurityProject-/blob/main/Joe%20Stones%20Projec%201%20Cloud%20Security%20(2).png](Images/diagram)
+https://github.com/gisailor/CybersecurityProject-/blob/main/Joe%20Stones%20Projec%201%20Cloud%20Security%20(2).png   (Images/diagram)
 
 These files have been tested and used to generate a live ELK deployment on Azure and DVWA Web servers behind a load balancer. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the config files and yaml files may be used to install only certain pieces of it, such as Filebeat.
 
