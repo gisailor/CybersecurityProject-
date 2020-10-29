@@ -4,14 +4,13 @@ Joe Stones Cybersecurity Project 1
 
 The files in this repository were used to configure the network depicted below.
 
-[https://github.com/gisailor/CybersecurityProject-/blob/main/Joe%20Stones%20Projec%201%20Cloud%20Security%20(2).png
+https://github.com/gisailor/CybersecurityProject-/blob/main/Diagrams/Joe%20Stones%20Projec%201%20Cloud%20Security%20(3).drawio
 
 These files have been tested and used to generate a live ELK deployment on Azure and DVWA Web servers behind a load balancer. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the config files and yaml files may be used to install only certain pieces of it, such as Filebeat.
-
-Link to DWVA play book: https://github.com/gisailor/CybersecurityProject-/blob/main/DVWA%20YAML
+DVWA Playbook Link: https://github.com/gisailor/CybersecurityProject-/blob/main/ansible/DVWA_Playbook.yml
   
 Link to Ansible configuration file:   
- https://github.com/gisailor/CybersecurityProject-/blob/main/AnsibleConfigFile.txt
+ https://github.com/gisailor/CybersecurityProject-/blob/main/ansible/AnsibleConfigFile.yml
   
   - Webservice configuration file changes
        [webservers]
@@ -23,7 +22,7 @@ Link to Ansible configuration file:
     	# (/usr/bin/ansible will use current user as default)
     	remote_user = sysadmin
 
-  - Filebeat Playbook Link: https://github.com/gisailor/CybersecurityProject-/blob/main/Filebeat_playbook.txt
+  - Filebeat Playbook Link: https://github.com/gisailor/CybersecurityProject-/blob/main/ansible/Filebeat_playbook.yml
 
  
   - Filebeat configuration file changes down loaded with curl command: curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > filebeat-config.yml
@@ -37,14 +36,14 @@ Link to Ansible configuration file:
    setup.kibana:
    host: "10.1.0.4:5601"
    
-   Link to Filebeat configuration file https://github.com/gisailor/CybersecurityProject-/blob/main/FilebeatConfiguration%20File.txt 
+   Link to Filebeat configuration file https://github.com/gisailor/CybersecurityProject-/blob/main/ansible/FilebeatConfiguration%20File.yml
 
 
 
   - Metricbeat Playbook used to install Metricbeat monitoring utility on ELK stack server 
-    Link: https://github.com/gisailor/CybersecurityProject-/blob/main/Metricbeat_playbook.txt
+    Link: https://github.com/gisailor/CybersecurityProject-/blob/main/ansible/Metricbeat_playbook.yml
 
-  - Metricbeat configuration yaml link : https://github.com/gisailor/CybersecurityProject-/blob/main/Metricbeat_configfile.txt
+  - Metricbeat configuration yaml link : https://github.com/gisailor/CybersecurityProject-/blob/main/ansible/Metricbeat_configfile.yml
 
   - Metricbeat configuration file changes:
     starting on line 61
@@ -127,7 +126,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/gisailor/CybersecurityProject-/blob/main/Docker_PS_Output.png
+https://github.com/gisailor/CybersecurityProject-/blob/main/Diagrams/Docker_PS_Output.png
 
 
 ### Target Machines & Beats
